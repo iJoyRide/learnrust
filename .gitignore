@@ -1,0 +1,50 @@
+# Compiled output
+/target/
+
+# Rust/Cargo related files
+**/*.rs.bk
+*.crate
+
+# Build artifacts
+**/*.d
+**/*.rlib
+**/*.rmeta
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.pdb
+**/*.lock
+
+# If using cargo workspaces
+**/target/
+
+# IDEs and Editors
+.idea/           # JetBrains IDEs (e.g., CLion, IntelliJ IDEA)
+*.iml            # IntelliJ project files
+.vscode/         # Visual Studio Code
+*.code-workspace
+
+# Temporary/Backup Files
+*.swp            # Vim swap files
+*.swo
+*.swn
+*~
+\#*\#            # Emacs temporary files
+*.tmp
+*.bak
+*.bk
+
+# OS-specific files
+.DS_Store        # macOS
+Thumbs.db        # Windows
+ehthumbs.db
+Icon?
+
+# Debugger and Logging
+*.log
+*.trace
+*.profraw        # LLVM profiling data
+
+# Miscellaneous
+cargo-*          # Cargo output scripts
